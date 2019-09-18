@@ -1,5 +1,7 @@
 """
-lab03_problem1
+Module: comp110_lab03
+
+Practice code for working with sounds in Python.
 """
 import sound
 
