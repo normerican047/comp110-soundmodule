@@ -10,7 +10,7 @@ love_sound = sound.load_sound("love.wav")
 love_sound.play()
 sound.wait_until_played()  # waits until love_sound is done playing
 
-filtered_love = sound.copy(love_sound)
+filtered_sound = sound.copy(love_sound)
 
 # change the volume of the love sound
 for i in range(len(filtered_sound)):
