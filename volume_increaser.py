@@ -13,8 +13,8 @@ sound.wait_until_played()  # waits until love_sound is done playing
 filtered_sound = sound.copy(love_sound)
 
 # change the volume of the love sound
-for i in range(len(filtered_sound)):
-    sample = filtered_sound[i]
+for sample_number in range(len(filtered_sound)):
+    sample = filtered_sound[sample_number]
 
     # change the left channel
     new_left_val = sample.left * 2
