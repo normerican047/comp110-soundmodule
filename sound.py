@@ -98,7 +98,7 @@ class StereoSample():
     def __str__(self):
         """Returns a string representation of this sample."""
 
-        return "Sample at index " + str(self.__index) + " with a left channel value of" \
+        return "Sample at index " + str(self.__index) + " with a left channel value of " \
             + str(self.left) + " and a right value value of " + \
             str(self.right)
 
